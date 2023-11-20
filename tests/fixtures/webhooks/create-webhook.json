@@ -1,0 +1,8 @@
+{
+    "data": {
+        "attributes": {
+            "url": "http://example.com/webhook",
+            "description": "Example webhook"
+        }
+    }
+}

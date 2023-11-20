@@ -1,0 +1,44 @@
+{
+    "name": "tayste/up-models",
+    "description": "A package containing PHP classes for the Up Bank REST API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stewart Malik",
+            "email": "mali0037@gmail.com"
+        }
+    ],
+    "scripts": {
+        "install:install-cs-fixer": "mkdir -p tools/php-cs-fixer && composer require --dev --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer",
+        "dev:lint": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src",
+        "dev:psalm": "./vendor/bin/psalm",
+        "dev:test": "./vendor/bin/phpunit tests",
+        "dev:check": [
+            "@dev:lint",
+            "@dev:psalm",
+            "@dev:test"
+        ],
+        "dev:setup": [
+            "@composer install --dev",
+            "@install:install-cs-fixer"
+        ]
+    },
+    "scripts-descriptions": {
+        "dev:lint": "Runs PHP-CS-Fixer",
+        "dev:psalm": "Runs Psalm",
+        "dev:test": "Runs PHPUnit tests",
+        "dev:setup": "Prepares the environment for development",
+        "dev:check": "Runs various tools to enforce style and performs static analysis"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tayste\\Up\\Model\\": "src/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.14",
+        "phpunit/phpunit": "^10.4",
+        "symfony/serializer": "^6.3",
+        "symfony/property-access": "^6.3"
+    }
+}

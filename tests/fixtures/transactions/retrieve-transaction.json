@@ -1,0 +1,78 @@
+{
+    "data": {
+        "type": "transactions",
+        "id": "781aa123-559e-428b-a5a9-dfdde4c64053",
+        "attributes": {
+            "status": "SETTLED",
+            "rawText": "WARUNG BEBEK, UBUD INDONES",
+            "description": "Warung Bebek Bengil",
+            "message": null,
+            "isCategorizable": true,
+            "holdInfo": {
+                "amount": {
+                    "currencyCode": "AUD",
+                    "value": "-107.92",
+                    "valueInBaseUnits": -10792
+                },
+                "foreignAmount": null
+            },
+            "roundUp": {
+                "amount": {
+                    "currencyCode": "AUD",
+                    "value": "-0.08",
+                    "valueInBaseUnits": -8
+                },
+                "boostPortion": null
+            },
+            "cashback": null,
+            "amount": {
+                "currencyCode": "AUD",
+                "value": "-107.92",
+                "valueInBaseUnits": -10792
+            },
+            "foreignAmount": {
+                "currencyCode": "IDR",
+                "value": "-1053698.77",
+                "valueInBaseUnits": -105369877
+            },
+            "cardPurchaseMethod": {
+                "method": "CARD_ON_FILE",
+                "cardNumberSuffix": "0001"
+            },
+            "settledAt": "2023-11-13T04:00:00+11:00",
+            "createdAt": "2023-11-13T04:00:00+11:00"
+        },
+        "relationships": {
+            "account": {
+                "data": {
+                    "type": "accounts",
+                    "id": "b4b638f4-6624-4e8f-b197-cda86662d349"
+                },
+                "links": {
+                    "related": "https://api.up.com.au/api/v1/accounts/b4b638f4-6624-4e8f-b197-cda86662d349"
+                }
+            },
+            "transferAccount": {
+                "data": null
+            },
+            "category": {
+                "data": null,
+                "links": {
+                    "self": "https://api.up.com.au/api/v1/transactions/781aa123-559e-428b-a5a9-dfdde4c64053/relationships/category"
+                }
+            },
+            "parentCategory": {
+                "data": null
+            },
+            "tags": {
+                "data": [],
+                "links": {
+                    "self": "https://api.up.com.au/api/v1/transactions/781aa123-559e-428b-a5a9-dfdde4c64053/relationships/tags"
+                }
+            }
+        },
+        "links": {
+            "self": "https://api.up.com.au/api/v1/transactions/781aa123-559e-428b-a5a9-dfdde4c64053"
+        }
+    }
+}

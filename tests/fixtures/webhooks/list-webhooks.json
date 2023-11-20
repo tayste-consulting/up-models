@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "type": "webhooks",
+            "id": "a51c3850-1768-4234-a10e-7effefc7f7ea",
+            "attributes": {
+                "url": "http://example.com/webhook-1",
+                "description": "Webhook number 1",
+                "createdAt": "2023-11-14T17:08:49+11:00"
+            },
+            "relationships": {
+                "logs": {
+                    "links": {
+                        "related": "https://api.up.com.au/api/v1/webhooks/a51c3850-1768-4234-a10e-7effefc7f7ea/logs"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.up.com.au/api/v1/webhooks/a51c3850-1768-4234-a10e-7effefc7f7ea"
+            }
+        }
+    ],
+    "links": {
+        "prev": null,
+        "next": "https://api.up.com.au/api/v1/webhooks?page%5Bafter%5D=WyIyMDIzLTExLTE0VDA2OjA4OjQ5Ljc1NDI5NTAwMFoiLCJhNTFjMzg1MC0xNzY4LTQyMzQtYTEwZS03ZWZmZWZjN2Y3ZWEiXQ%3D%3D&page%5Bsize%5D=1"
+    }
+}

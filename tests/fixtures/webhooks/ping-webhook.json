@@ -1,0 +1,21 @@
+{
+    "data": {
+        "type": "webhook-events",
+        "id": "79e107fa-6e05-486a-9b7f-62a07e828382",
+        "attributes": {
+            "eventType": "PING",
+            "createdAt": "2023-11-16T17:08:55+11:00"
+        },
+        "relationships": {
+            "webhook": {
+                "data": {
+                    "type": "webhooks",
+                    "id": "b5de0e49-8f64-4fd3-a61c-ea9ac46d0884"
+                },
+                "links": {
+                    "related": "https://api.up.com.au/api/v1/webhooks/b5de0e49-8f64-4fd3-a61c-ea9ac46d0884"
+                }
+            }
+        }
+    }
+}

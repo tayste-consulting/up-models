@@ -1,0 +1,21 @@
+{
+    "data": {
+        "type": "webhooks",
+        "id": "915f9620-95a0-47a8-ab2f-aed44a57d215",
+        "attributes": {
+            "url": "http://example.com/webhook-2",
+            "description": "Webhook number 2",
+            "createdAt": "2023-11-15T17:08:52+11:00"
+        },
+        "relationships": {
+            "logs": {
+                "links": {
+                    "related": "https://api.up.com.au/api/v1/webhooks/915f9620-95a0-47a8-ab2f-aed44a57d215/logs"
+                }
+            }
+        },
+        "links": {
+            "self": "https://api.up.com.au/api/v1/webhooks/915f9620-95a0-47a8-ab2f-aed44a57d215"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "type": "transactions",
+            "id": "fb4406f7-8b0f-4060-a7f0-d4c6ecc6b1d7",
+            "attributes": {
+                "status": "HELD",
+                "rawText": "Spotify 0123456789",
+                "description": "Spotify",
+                "message": null,
+                "isCategorizable": true,
+                "holdInfo": {
+                    "amount": {
+                        "currencyCode": "AUD",
+                        "value": "-11.95",
+                        "valueInBaseUnits": -1195
+                    },
+                    "foreignAmount": null
+                },
+                "roundUp": null,
+                "cashback": null,
+                "amount": {
+                    "currencyCode": "AUD",
+                    "value": "-11.95",
+                    "valueInBaseUnits": -1195
+                },
+                "foreignAmount": null,
+                "cardPurchaseMethod": null,
+                "settledAt": null,
+                "createdAt": "2023-11-13T12:59:47+11:00"
+            },
+            "relationships": {
+                "account": {
+                    "data": {
+                        "type": "accounts",
+                        "id": "d3ee3ab7-9bb9-4daf-8cbc-446405d0fe51"
+                    },
+                    "links": {
+                        "related": "https://api.up.com.au/api/v1/accounts/d3ee3ab7-9bb9-4daf-8cbc-446405d0fe51"
+                    }
+                },
+                "transferAccount": {
+                    "data": null
+                },
+                "category": {
+                    "data": {
+                        "type": "categories",
+                        "id": "tv-and-music"
+                    },
+                    "links": {
+                        "self": "https://api.up.com.au/api/v1/transactions/fb4406f7-8b0f-4060-a7f0-d4c6ecc6b1d7/relationships/category",
+                        "related": "https://api.up.com.au/api/v1/categories/tv-and-music"
+                    }
+                },
+                "parentCategory": {
+                    "data": {
+                        "type": "categories",
+                        "id": "good-life"
+                    },
+                    "links": {
+                        "related": "https://api.up.com.au/api/v1/categories/good-life"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "self": "https://api.up.com.au/api/v1/transactions/fb4406f7-8b0f-4060-a7f0-d4c6ecc6b1d7/relationships/tags"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.up.com.au/api/v1/transactions/fb4406f7-8b0f-4060-a7f0-d4c6ecc6b1d7"
+            }
+        }
+    ],
+    "links": {
+        "prev": null,
+        "next": null
+    }
+}

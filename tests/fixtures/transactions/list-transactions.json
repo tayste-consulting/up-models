@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "type": "transactions",
+            "id": "f74f361c-fa9b-4843-843f-43c3b30b7a00",
+            "attributes": {
+                "status": "SETTLED",
+                "rawText": null,
+                "description": "David Taylor",
+                "message": "Money for the pizzas last night.",
+                "isCategorizable": true,
+                "holdInfo": null,
+                "roundUp": null,
+                "cashback": null,
+                "amount": {
+                    "currencyCode": "AUD",
+                    "value": "-59.98",
+                    "valueInBaseUnits": -5998
+                },
+                "foreignAmount": null,
+                "cardPurchaseMethod": null,
+                "settledAt": "2023-11-15T10:06:37+11:00",
+                "createdAt": "2023-11-15T10:06:37+11:00"
+            },
+            "relationships": {
+                "account": {
+                    "data": {
+                        "type": "accounts",
+                        "id": "f4b4154e-847f-43e7-a0a4-f4a610e29dd2"
+                    },
+                    "links": {
+                        "related": "https://api.up.com.au/api/v1/accounts/f4b4154e-847f-43e7-a0a4-f4a610e29dd2"
+                    }
+                },
+                "transferAccount": {
+                    "data": null
+                },
+                "category": {
+                    "data": null,
+                    "links": {
+                        "self": "https://api.up.com.au/api/v1/transactions/f74f361c-fa9b-4843-843f-43c3b30b7a00/relationships/category"
+                    }
+                },
+                "parentCategory": {
+                    "data": null
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "tags",
+                            "id": "Pizza Night"
+                        }
+                    ],
+                    "links": {
+                        "self": "https://api.up.com.au/api/v1/transactions/f74f361c-fa9b-4843-843f-43c3b30b7a00/relationships/tags"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.up.com.au/api/v1/transactions/f74f361c-fa9b-4843-843f-43c3b30b7a00"
+            }
+        }
+    ],
+    "links": {
+        "prev": null,
+        "next": null
+    }
+}
