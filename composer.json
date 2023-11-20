@@ -1,13 +1,22 @@
 {
     "name": "tayste/up-models",
-    "description": "A package containing PHP classes for the Up Bank REST API",
+    "description": "A PHP implementation of the API schema defined at: https://developer.up.com.au/",
     "type": "library",
+    "keywords": ["up", "banking", "australia", "api"],
     "authors": [
         {
             "name": "Stewart Malik",
-            "email": "mali0037@gmail.com"
+            "email": "stewart@tayste.consulting",
+            "role": "Developer"
         }
     ],
+    "homepage": "https://github.com/tayste-consulting/up-models",
+    "license": "MIT",
+    "support": {
+        "email": "support@tayste.consulting",
+        "issues": "https://github.com/tayste-consulting/up-models/issues",
+        "source": "https://github.com/tayste-consulting/up-models"
+    },
     "scripts": {
         "install:install-cs-fixer": "mkdir -p tools/php-cs-fixer && composer require --dev --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer",
         "dev:lint": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src",
@@ -34,6 +43,9 @@
         "psr-4": {
             "Tayste\\Up\\Model\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=8.2"
     },
     "require-dev": {
         "vimeo/psalm": "^5.14",
